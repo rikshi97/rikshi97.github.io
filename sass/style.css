@@ -34,7 +34,7 @@ p {
 }
 
 .orange {
-  color: #FF5100;
+  color: #0066ff;
 }
 
 h2 {
@@ -75,7 +75,7 @@ img {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #FFF;
+  background-color: #ffffff;
 }
 
 @media screen and (min-width: 1250px) {
@@ -97,7 +97,7 @@ img {
 }
 
 .site-header .nav-logo a img {
-  max-width: 200px;
+  max-width: 300px;
   height: auto;
 }
 
@@ -191,23 +191,13 @@ img {
 }
 
 .banner {
-  padding: 90px 15px;
-  background-color: #923cb5;
-  background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+  padding: 200px 50px;
+  background-color: #00AFEF;
+  background-image: linear-gradient(147deg, #0900b2 0%, #33394D 84%);
   text-align: center;
   color: #FFFFFF;
 }
 
-.banner .banner--content {
-  max-width: 1400px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  background: url("../assets/svg/soap.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: contain;
-}
 
 .banner .banner--content .name {
   text-transform: uppercase;
@@ -326,8 +316,8 @@ img {
 }
 
 #skill {
-  background-color: #7f53ac;
-  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background-color: #00AFEF;
+  background-image: linear-gradient(315deg, #33394D 0%, #00AFEF 74%);
 }
 
 #skill .skill--content {
@@ -400,15 +390,6 @@ img {
   height: auto;
 }
 
-#service h2 {
-  max-width: 1200px;
-  display: block;
-  margin: 0 auto 30px auto;
-}
-
-#service .service--content {
-  display: block;
-}
 
 @media screen and (min-width: 768px) {
   #service .service--content {
