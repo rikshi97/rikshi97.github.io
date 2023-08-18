@@ -384,7 +384,7 @@ h3 {
 .card li a {
   margin-right: 0;
   color: #333;
-  border-bottom: 2px solid #ffab40;
+  border-bottom: 2px solid #0a2a61;
 }
 
 .card li a:hover {
@@ -432,7 +432,7 @@ h3 {
 }
 
 .card ul {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .card ul li {
@@ -552,9 +552,6 @@ small {
   color: #01004daf !important;
 }
 
-/* .teal-text {
-  color: #0b5e86 !important;
-} */
 
 /* .teal */
 
@@ -562,9 +559,25 @@ small {
   background-color: #01004daf !important;
 }
 
-/* .teal {
-  background-color: #00695c !important;
-} */
+/* table */
+
+@media (max-width: 1360px) {
+    .skill-table {
+      width: 100%;
+      table-layout: fixed;
+  }
+    .skill-column {
+      width: 33.33%;
+      vertical-align: top;
+  }
+}
+
+.table-head {
+  vertical-align: top;
+  max-width: 33.33%;
+  white-space: nowrap;
+  overflow: hidden; 
+}
 
 @media (min-width: 1200px) {
   #experience .container {
