@@ -572,6 +572,36 @@ small {
   }
 }
 
+/* Table Styling */
+table.highlight {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table.highlight th,
+table.highlight td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Light grey line for each row */
+}
+
+table.highlight tr:hover {
+  background-color: #f2f2f2; /* Slightly darker row on hover */
+}
+
+table.highlight th {
+  background-color: #01004daf; /* Green background for headers */
+  color: white;
+}
+
+table.highlight ul {
+  list-style-type: none; /* Removes bullet points from lists */
+  padding: 0;
+  margin: 0;
+}
+
+
 .table-head {
   vertical-align: top;
   max-width: 33.33%;
